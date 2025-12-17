@@ -64,8 +64,28 @@
   },
   {
     "ContainingType": "TaskManagement.Controllers.WeatherForecastController",
+    "Method": "GetCurrentTime",
+    "RelativePath": "WeatherForecast/current-time(e.g, Singleton DI)",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskManagement.Controllers.WeatherForecastController",
     "Method": "GetExternalPosts",
-    "RelativePath": "WeatherForecast/external-posts",
+    "RelativePath": "WeatherForecast/external-posts(External API Integration)",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskManagement.Controllers.WeatherForecastController",
+    "Method": "GetMessage",
+    "RelativePath": "WeatherForecast/transient-message(e.g, Transient DI)",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

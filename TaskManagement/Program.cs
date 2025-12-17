@@ -17,6 +17,9 @@ builder.Services.AddScoped<ITaskService, TaskService>();
 builder.Services.AddHostedService<TaskNotificationService>();
 builder.Services.AddHttpClient<ExternalPostService>();
 
+builder.Services.AddSingleton<ISystemTimeProvider, SystemTimeProvider>();
+builder.Services.AddTransient<IMessageServices, MessageServices>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using TaskManagement.InfraStructure;
+using TaskManagement.Services;
 
 namespace TaskManagement.Controllers
 {
@@ -7,6 +8,8 @@ namespace TaskManagement.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
+        private readonly ISystemTimeProvider _timeProvider;
+        private readonly IMessageServices _messageService;
         private static readonly string[] Summaries = new[]
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
@@ -14,9 +17,11 @@ namespace TaskManagement.Controllers
 
         private readonly ILogger<WeatherForecastController> _logger;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public WeatherForecastController(ILogger<WeatherForecastController> logger, ISystemTimeProvider timeProvider, IMessageServices messageService)
         {
             _logger = logger;
+            _timeProvider = timeProvider;
+            _messageService = messageService;
         }
 
         [HttpGet(Name = "GetWeatherForecast")]
@@ -35,6 +40,17 @@ namespace TaskManagement.Controllers
         public async Task<IActionResult> GetExternalPosts([FromServices] ExternalPostService service)
         {
             return Ok(await service.GetPostsAsync());
+        }
+        [HttpGet("current-time(e.g, Singleton DI)")]
+        public IActionResult GetCurrentTime()
+        {
+            return Ok(new { Time = _timeProvider.GetCurrentTime() });
+        }
+
+        [HttpGet("transient-message(e.g, Transient DI)")]
+        public IActionResult GetMessage()
+        {
+            return Ok(new { Message = _messageService.GetMessage() });
         }
     }
 }

@@ -108,7 +108,31 @@
         }
       }
     },
-    "/WeatherForecast/external-posts": {
+    "/WeatherForecast/external-posts(External API Integration)": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/WeatherForecast/current-time(e.g, Singleton DI)": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/WeatherForecast/transient-message(e.g, Transient DI)": {
       "get": {
         "tags": [
           "WeatherForecast"
