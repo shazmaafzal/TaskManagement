@@ -30,7 +30,8 @@ namespace TaskManagement.Controllers
             })
             .ToArray();
         }
-        [HttpGet("external-posts")]
+
+        [HttpGet("external-posts(External API Integration)")]
         public async Task<IActionResult> GetExternalPosts([FromServices] ExternalPostService service)
         {
             return Ok(await service.GetPostsAsync());
