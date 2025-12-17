@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\TaskManagement\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1C25D9E4-0380-4BDF-BE09-08F2CAE0B9F2}|TaskManagement\\TaskManagement.csproj|c:\\users\\admin\\source\\repos\\taskmanagement\\taskmanagement\\domain\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C25D9E4-0380-4BDF-BE09-08F2CAE0B9F2}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\domain\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C25D9E4-0380-4BDF-BE09-08F2CAE0B9F2}|TaskManagement\\TaskManagement.csproj|c:\\users\\admin\\source\\repos\\taskmanagement\\taskmanagement\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C25D9E4-0380-4BDF-BE09-08F2CAE0B9F2}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C25D9E4-0380-4BDF-BE09-08F2CAE0B9F2}|TaskManagement\\TaskManagement.csproj|c:\\users\\admin\\source\\repos\\taskmanagement\\taskmanagement\\repositories\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C25D9E4-0380-4BDF-BE09-08F2CAE0B9F2}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\repositories\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +22,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\TaskManagement\\TaskManagement\\Domain\\TaskItem.cs",
+              "RelativeDocumentMoniker": "TaskManagement\\Domain\\TaskItem.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\TaskManagement\\TaskManagement\\Domain\\TaskItem.cs",
+              "RelativeToolTip": "TaskManagement\\Domain\\TaskItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T10:15:12.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TaskRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\TaskManagement\\TaskManagement\\Repositories\\TaskRepository.cs",
+              "RelativeDocumentMoniker": "TaskManagement\\Repositories\\TaskRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\TaskManagement\\TaskManagement\\Repositories\\TaskRepository.cs",
+              "RelativeToolTip": "TaskManagement\\Repositories\\TaskRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T10:13:47.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ITaskRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\TaskManagement\\TaskManagement\\Repositories\\ITaskRepository.cs",
+              "RelativeDocumentMoniker": "TaskManagement\\Repositories\\ITaskRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\TaskManagement\\TaskManagement\\Repositories\\ITaskRepository.cs",
+              "RelativeToolTip": "TaskManagement\\Repositories\\ITaskRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T10:13:00.658Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
