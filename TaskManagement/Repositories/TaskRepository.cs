@@ -2,13 +2,19 @@
 
 namespace TaskManagement.Repositories
 {
-    public class TaskRepository
+    public class TaskRepository : ITaskRepository
     {
         private static readonly List<TaskItem> _tasks = new();
 
-        public Task<IEnumerable<TaskItem>> GetAllAsync() => Task.FromResult(_tasks.AsEnumerable());
+        public Task<IEnumerable<TaskItem>> GetAllAsync()
+        {
+            return Task.FromResult(_tasks.AsEnumerable());
+        }
 
-        public Task<TaskItem?> GetByIdAsync(int id) => Task.FromResult(_tasks.FirstOrDefault(t => t.Id == id));
+        public Task<TaskItem?> GetByIdAsync(int id)
+        {
+            return Task.FromResult(_tasks.FirstOrDefault(t => t.Id == id));
+        }
 
         public Task AddAsync(TaskItem task)
         {
@@ -17,7 +23,10 @@ namespace TaskManagement.Repositories
             return Task.CompletedTask;
         }
 
-        public Task UpdateAsync(TaskItem task) => Task.CompletedTask;
+        public Task UpdateAsync(TaskItem task)
+        {
+            return Task.CompletedTask;
+        }
 
         public Task DeleteAsync(int id)
         {
