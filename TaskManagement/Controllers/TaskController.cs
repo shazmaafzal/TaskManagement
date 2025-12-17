@@ -10,10 +10,16 @@ namespace TaskManagement.Controllers
     public class TaskController : ControllerBase
     {
         private readonly ITaskService _service;
-        public TaskController(TaskService service) => _service = service;
+        public TaskController(ITaskService service)
+        {
+            _service = service;
+        }
 
         [HttpGet]
-        public async Task<IActionResult> Get() => Ok(await _service.GetTasksAsync());
+        public async Task<IActionResult> Get()
+        {
+            return Ok(await _service.GetTasksAsync());
+        }
 
         [HttpPost]
         public async Task<IActionResult> Create(TaskItem task)

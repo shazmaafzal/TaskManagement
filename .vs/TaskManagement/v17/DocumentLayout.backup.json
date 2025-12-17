@@ -1,7 +1,40 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\TaskManagement\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1C25D9E4-0380-4BDF-BE09-08F2CAE0B9F2}|TaskManagement\\TaskManagement.csproj|c:\\users\\admin\\source\\repos\\taskmanagement\\taskmanagement\\infrastructure\\tasknotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C25D9E4-0380-4BDF-BE09-08F2CAE0B9F2}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\infrastructure\\tasknotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C25D9E4-0380-4BDF-BE09-08F2CAE0B9F2}|TaskManagement\\TaskManagement.csproj|c:\\users\\admin\\source\\repos\\taskmanagement\\taskmanagement\\infrastructure\\externalpostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C25D9E4-0380-4BDF-BE09-08F2CAE0B9F2}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\infrastructure\\externalpostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C25D9E4-0380-4BDF-BE09-08F2CAE0B9F2}|TaskManagement\\TaskManagement.csproj|c:\\users\\admin\\source\\repos\\taskmanagement\\taskmanagement\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C25D9E4-0380-4BDF-BE09-08F2CAE0B9F2}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C25D9E4-0380-4BDF-BE09-08F2CAE0B9F2}|TaskManagement\\TaskManagement.csproj|c:\\users\\admin\\source\\repos\\taskmanagement\\taskmanagement\\domain\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C25D9E4-0380-4BDF-BE09-08F2CAE0B9F2}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\domain\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C25D9E4-0380-4BDF-BE09-08F2CAE0B9F2}|TaskManagement\\TaskManagement.csproj|c:\\users\\admin\\source\\repos\\taskmanagement\\taskmanagement\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C25D9E4-0380-4BDF-BE09-08F2CAE0B9F2}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C25D9E4-0380-4BDF-BE09-08F2CAE0B9F2}|TaskManagement\\TaskManagement.csproj|c:\\users\\admin\\source\\repos\\taskmanagement\\taskmanagement\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C25D9E4-0380-4BDF-BE09-08F2CAE0B9F2}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C25D9E4-0380-4BDF-BE09-08F2CAE0B9F2}|TaskManagement\\TaskManagement.csproj|c:\\users\\admin\\source\\repos\\taskmanagement\\taskmanagement\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C25D9E4-0380-4BDF-BE09-08F2CAE0B9F2}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C25D9E4-0380-4BDF-BE09-08F2CAE0B9F2}|TaskManagement\\TaskManagement.csproj|c:\\users\\admin\\source\\repos\\taskmanagement\\taskmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C25D9E4-0380-4BDF-BE09-08F2CAE0B9F2}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +55,110 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\TaskManagement\\TaskManagement\\Domain\\TaskItem.cs",
+              "RelativeDocumentMoniker": "TaskManagement\\Domain\\TaskItem.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\TaskManagement\\TaskManagement\\Domain\\TaskItem.cs",
+              "RelativeToolTip": "TaskManagement\\Domain\\TaskItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T10:42:53.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaskRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\TaskManagement\\TaskManagement\\Repositories\\TaskRepository.cs",
+              "RelativeDocumentMoniker": "TaskManagement\\Repositories\\TaskRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\TaskManagement\\TaskManagement\\Repositories\\TaskRepository.cs",
+              "RelativeToolTip": "TaskManagement\\Repositories\\TaskRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAUwBQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T10:41:29.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\TaskManagement\\TaskManagement\\Services\\TaskService.cs",
+              "RelativeDocumentMoniker": "TaskManagement\\Services\\TaskService.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\TaskManagement\\TaskManagement\\Services\\TaskService.cs",
+              "RelativeToolTip": "TaskManagement\\Services\\TaskService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAuwBkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T10:39:06.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExternalPostService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\TaskManagement\\TaskManagement\\InfraStructure\\ExternalPostService.cs",
+              "RelativeDocumentMoniker": "TaskManagement\\InfraStructure\\ExternalPostService.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\TaskManagement\\TaskManagement\\InfraStructure\\ExternalPostService.cs",
+              "RelativeToolTip": "TaskManagement\\InfraStructure\\ExternalPostService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T10:36:45.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaskNotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\TaskManagement\\TaskManagement\\InfraStructure\\TaskNotificationService.cs",
+              "RelativeDocumentMoniker": "TaskManagement\\InfraStructure\\TaskNotificationService.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\TaskManagement\\TaskManagement\\InfraStructure\\TaskNotificationService.cs*",
+              "RelativeToolTip": "TaskManagement\\InfraStructure\\TaskNotificationService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T10:36:19.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\TaskManagement\\TaskManagement\\Program.cs",
+              "RelativeDocumentMoniker": "TaskManagement\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\TaskManagement\\TaskManagement\\Program.cs",
+              "RelativeToolTip": "TaskManagement\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T10:31:35.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\TaskManagement\\TaskManagement\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "TaskManagement\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\TaskManagement\\TaskManagement\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "TaskManagement\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAcwCQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T10:30:05.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TaskController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\TaskManagement\\TaskManagement\\Controllers\\TaskController.cs",
+              "RelativeDocumentMoniker": "TaskManagement\\Controllers\\TaskController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\TaskManagement\\TaskManagement\\Controllers\\TaskController.cs",
+              "RelativeToolTip": "TaskManagement\\Controllers\\TaskController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wCEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T10:29:59.377Z",
+              "EditorCaption": ""
             }
           ]
         }

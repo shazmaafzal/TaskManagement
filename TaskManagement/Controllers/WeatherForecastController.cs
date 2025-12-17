@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using TaskManagement.InfraStructure;
 
 namespace TaskManagement.Controllers
 {
@@ -28,6 +29,11 @@ namespace TaskManagement.Controllers
                 Summary = Summaries[Random.Shared.Next(Summaries.Length)]
             })
             .ToArray();
+        }
+        [HttpGet("external-posts")]
+        public async Task<IActionResult> GetExternalPosts([FromServices] ExternalPostService service)
+        {
+            return Ok(await service.GetPostsAsync());
         }
     }
 }

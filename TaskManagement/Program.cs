@@ -1,3 +1,4 @@
+using TaskManagement.InfraStructure;
 using TaskManagement.Repositories;
 using TaskManagement.Services;
 
@@ -12,6 +13,9 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<ITaskRepository, TaskRepository>();
 builder.Services.AddScoped<ITaskService, TaskService>();
+
+builder.Services.AddHostedService<TaskNotificationService>();
+builder.Services.AddHttpClient<ExternalPostService>();
 
 var app = builder.Build();
 

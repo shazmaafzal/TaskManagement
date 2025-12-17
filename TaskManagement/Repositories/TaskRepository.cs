@@ -4,7 +4,7 @@ namespace TaskManagement.Repositories
 {
     public class TaskRepository : ITaskRepository
     {
-        private static readonly List<TaskItem> _tasks = new();
+        private static readonly List<TaskItem> _tasks = new List<TaskItem>();
 
         public Task<IEnumerable<TaskItem>> GetAllAsync()
         {
